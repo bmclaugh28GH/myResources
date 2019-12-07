@@ -32,7 +32,7 @@ function getChar (myNum) {
 
 function getTimeStr (d) {
 
-   var str = d.getHours(a) + ':';
+   var str = d.getHours() + ':';
 
    if (d.getMinutes() >= 0 && d.getMinutes() <= 9){
       str+='0';
