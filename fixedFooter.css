@@ -1,0 +1,41 @@
+html, body{
+    height:100%;
+}
+.container{
+    min-height: 100%;
+}
+.workArea{
+    overflow:auto;
+    padding-bottom:100px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    height:100px;
+    background-color: whatever;
+    width: 100%;
+    text-align: center;
+}
+
+/* This seems to work on html files structured like this: 
+
+note: footer height must match workAreas padding-bottom 
+
+<html> 
+    <head>
+    </head>
+
+    <body>
+
+        <container>
+
+            <workArea>
+            </workArea>
+
+        </container>
+    
+        <footer>
+        </footer>
+
+    </body>
+</html> 
